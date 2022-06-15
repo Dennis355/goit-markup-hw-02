@@ -1,0 +1,234 @@
+
+:root{
+    --trend-color:#2196F3;
+    --notrend-kolor: #757575;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+}
+li {list-style: none;
+}
+ a {
+    text-decoration: none;
+} 
+.logo-ferst{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em; 
+color: var(--trend-color);
+}
+.logo-ferst .logo-lest{
+color: #212121;
+}
+.logo-ferst:hover,
+.logo-ferst:focus{
+    cursor: pointer;
+    color:green;
+}
+
+/* header navigation */
+.header {
+    background:#FFFFFF;
+    
+}
+.header-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+color: #212121;
+        }
+    .header-aktiv{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,14;
+        letter-spacing: 0.02em;
+        color: var(--trend-color);
+    }
+    .header-aktiv:hover,
+    .header-aktiv:focus{
+        color: var(--notrend-kolor);
+    }
+      
+    .ferst-fase{
+        Font-style: Black;
+        Font-size: 44px;
+        Line-height: 1.36;
+        letter-spacing: 0.06em;
+    }
+.header-link:hover, 
+.hesder-link:focus
+{
+    color: var(--trend-color); 
+}
+/* header contacts */
+        .header-cont {
+            Font-size: 14px;
+            font-weight: 500;
+            Line-height: 1.14; 
+            letter-spacing: 0.02em;  
+        }
+        .header-cont .header-webadres {
+                color: var(--trend-color);
+            }
+    .header-cont .header-contacts {
+           color:var(--notrend-kolor);
+                }
+.header-contacts:hover, 
+.header-contacts:focus
+{
+    color: var(--trend-color); 
+}
+.header-webadres:hover, 
+.header-webadres:focus
+{
+    color: var(--notrend-color); 
+}
+
+/* index button */
+.ferst-button{
+    background:var(--trend-color);
+    Font-style: Bold;
+    Font-size: 16px;
+    Line-height: 30px;
+    Line-height: 1.87;
+    cursor: pointer;
+    color:#FFFFFF;
+}
+.ferst-button:hover, .ferst-button:focus{
+    background:green;
+    color: var(--trend-color);
+
+}
+   
+    /* navigation .button potfolio */
+
+.button{
+    
+    color:#212121;
+    Font-style: Medium;
+    Font-size: 16px;
+    Line-height: 26px;
+    Line-height: 1.63;
+    }
+
+.button .button-activ{
+    color: #FFFFFF;
+    background: var(--trend-color);
+    cursor: pointer;
+}
+
+.button .last-button{
+    background: #F5F4FA;
+    color: #212121;
+    cursor: pointer;
+   }
+
+   .button-activ:hover, .button-activ:focus{
+    background:green;
+    color: var(--trend-color);
+    
+}
+    .last-button:hover, .last-button:focus{
+        background: var(--trend-color);
+        color: #F5F4FA;
+        
+    }
+
+
+/* team */
+
+
+
+
+
+/* ferst content */
+
+    
+
+/* краткое описание отличий */
+.difference{
+    color:#212121;
+    Font-style: Bold;
+    Font-size: 14px;
+    Line-height: 16px;
+    Line-height: 1.12;
+}
+
+.difference-p{
+    color:var(--notrend-kolor);
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 1.7;
+}
+    /* class work = class team */
+.work {
+    color:#212121;
+    Font-style: Bold;
+    Font-size: 36px;
+    Line-height: 42px;
+    Line-height: 1.17;
+
+}
+.team-name{
+    Font-style: Bold;
+    Font-size: 16px;
+    Line-height: 30px;
+    Line-height: 160%;
+    color:#212121;
+}
+.team-position{
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 19px;
+    Line-height: 1.16;
+    color: var(--notrend-kolor);
+}
+    .works-text {
+        Font-style: Bold;        
+        Font-size: 18px;
+        Line-height: 36px;
+        Line-height: 2;
+        color: #212121;
+    }
+    .works-symbol{
+        Font-style: Regular;
+        Font-size: 16px;
+        Line-height: 30px;
+        Line-height: 1.87;
+        color:var(--notrend-kolor);
+    }
+
+
+/* footer */
+.footer {
+    background: #2F303A;    }
+.logo-ferst .logo-footer {
+     color:#FFFFFF; 
+    }
+
+.footer-adress{
+     color: #FFFFFF;
+    font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 1.7;
+   
+}
+.footer-contakts{
+    font-style: Regular;
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 1.7;
+     color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress:hover, .footer-adress:focus {
+    color: var(--trend-color);
+}
+.footer-contakts:hover, .footer-contakts:focus {
+    color: var(--trend-color);}
