@@ -1,0 +1,247 @@
+
+:root{
+    --trend-color:#2196F3;
+    --notrend-kolor: #757575;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+    font-style: normal;
+    
+}
+li {list-style: none;
+}
+ a {
+    text-decoration: none;
+} 
+.logo-ferst{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em; 
+color: var(--trend-color);
+}
+.logo-ferst .logo-lest{
+color: #212121;
+}
+.logo-ferst:hover,
+.logo-ferst:focus{
+    cursor: pointer;
+    color: var(--notrend-color);
+}
+
+/* header navigation */
+.header {
+    background:#FFFFFF;
+    
+}
+.header-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+        }
+    .header-aktiv{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,14;
+        letter-spacing: 0.02em;
+        color: var(--trend-color);
+    }
+    .header-aktiv:hover,
+    .header-aktiv:focus{
+        color: var(--notrend-kolor);
+    }
+      
+    .ferst-fase{
+        background:#2F303A;
+        font-weight: 900;
+        Font-size: 44px;
+        Line-height: 1.36;
+        letter-spacing: 0.06em;
+        color:#FFFFFF;
+    }
+.header-link:hover, 
+.hesder-link:focus
+{
+    color: var(--trend-color); 
+}
+/* header contacts */
+        .header-cont {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.14; 
+            letter-spacing: 0.02em;  
+        }
+        .header-cont .header-webadres {
+                color: var(--trend-color);
+            }
+    .header-cont .header-contacts {
+           color:var(--notrend-kolor);
+                }
+.header-contacts:hover, 
+.header-contacts:focus
+{
+    color: var(--trend-color); 
+}
+.header-webadres:hover, 
+.header-webadres:focus
+{
+    color: var(--notrend-color); 
+}
+
+/* index button */
+.ferst-button{
+    background:var(--trend-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;
+    color:#FFFFFF;
+    letter-spacing: 0.06em;}
+
+    .ferst-button:hover, .ferst-button:focus{
+    background:green;
+    color: var(--trend-color);
+
+}
+   
+    /* navigation .button potfolio */
+
+/* .button{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em; 
+     
+    } */
+
+.button-activ {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: var(--trend-color);
+    cursor: pointer;
+}
+
+.last-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+    background: #F5F4FA;
+    color: #212121;
+    cursor: pointer;
+   }
+
+   .button-activ:hover, .button-activ:focus{
+    background:green;
+    color: var(--trend-color);
+    
+}
+    .last-button:hover, .last-button:focus{
+        background: var(--trend-color);
+        color: #F5F4FA;
+        
+    }
+
+
+/* team */
+
+
+
+
+
+/* ferst content */
+
+    
+
+/* краткое описание отличий */
+.difference{
+    color:#212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+      }
+
+.difference-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--notrend-kolor);
+    }
+    /* class work = class team */
+.work {
+    color:#212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+   
+   }
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-position{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--notrend-kolor);
+}
+    .works-text {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+    }
+    .works-symbol{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color:var(--notrend-kolor);
+    }
+
+
+/* footer */
+.footer {
+    
+    background: #2F303A;    }
+.logo-ferst .logo-footer {
+     color:#FFFFFF; 
+    }
+
+.footer-adress{
+         font-style: normal;
+    color: #FFFFFF;
+         font-weight: 400;
+     font-size: 14px;
+     line-height: 1.71;
+     letter-spacing: 0.03em;
+   
+}
+.footer-contakts{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress:hover, .footer-adress:focus {
+    color: var(--trend-color);
+}
+.footer-contakts:hover, .footer-contakts:focus {
+    color: var(--trend-color);}
